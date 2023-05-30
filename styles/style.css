@@ -30,12 +30,10 @@ body {
 .block_bar {
     display: flex;
     justify-content: space-between;
-    /* padding: 10px; */
 }
 
 .block {
     width: 30%;
-    /* padding-left: 15px; */
 }
 
 .block_header {
@@ -98,4 +96,5 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
+    margin: 20px;
 }

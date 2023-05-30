@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about_project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>about project</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about_project_style.css">
+    <script src="scripts/chat.js"></script>
 </head>
 <body>
     <div class="header">
@@ -39,5 +41,28 @@
     <p style="margin: 0;">
         Just one web-site and one bot in your messenger
     </p>
+    <p class="chat_header">You can text me or discuss this project down below.</p>
+    <div class="chat">
+        <ul class="chat_content">
+            <li>Не выпендривайся! Переведи сайт на русский!</li>
+            <li>Да! Точно! Переведи сайт на русский!</li>
+            <li>Когда уже запустишь MVP???</li>
+            <li>Не, пу правда! Сколько ждать-то еще?</li>
+            <li>Ребят, а я задонатить хочу, но никак... </li>
+            <li id="new_message"></li>
+        </ul>
+        <div class="message_creater">
+            Write down your message
+            <p><input type="text" id="chat_message_text" placeholder="Start writing..."></p>
+            <p><button onclick="lets_chat()">Send message</button></p>
+
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <a target="_blank" href="https://gb.ru/users/7957618" style="color: white;">developed by some GB-student</a>
+        <a href="about_me.html" style="color: white;">about me</a>
+        <a href="about_project.html" style="color: white;">about project</a>
+</div>
 </body>
 </html>

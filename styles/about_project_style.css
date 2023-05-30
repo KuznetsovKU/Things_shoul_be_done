@@ -1,0 +1,28 @@
+
+.chat_header {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.chat {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chat_content {
+    margin: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.message_creater {
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
