@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sign_in_up_style.css">
+    <script src="scripts/greetings.js"></script>
 </head>
 <body>
     <div class="header">
         <p class="logo">Things should be done</p>
+        <a href="index.html" style="color: white;">Main page</a>
     </div>
     <hr>
-    <p class="sorry">Sorry, you can't join this project yet.</p>
-    <a href="index.html" style="color: white;">Main page</a>
+    <div class="authorization_page">
+        <div class="authorization">
+            <p>Wellcome to "Things should be done".</p>
+            <p>Please enter your name:</p>
+            <input type="text" id="name" placeholder="Your name">
+            <p>Please enter your email:</p>
+            <input type="email" id="email" placeholder="example@example.com">
+            <p>Please enter your password:</p>
+            <input type="password" id="password" placeholder="Your password">
+            <p class="authorization_buttons">
+                <button onclick="greetings()">Enter</button>
+                <button onclick="greetings()">Register</button>
+            </p>
+        </div>
+    </div>
 </body>
 </html>

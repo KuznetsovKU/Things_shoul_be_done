@@ -1,0 +1,18 @@
+
+.authorization_page {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.authorization {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;   
+}
+
+.authorization_buttons {
+    display: flex;
+    justify-content: space-between;
+}
