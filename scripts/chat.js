@@ -13,4 +13,5 @@ function lets_chat(){
     chat_message = document.getElementById("chat_message_text").value;
     console.log(chat_message)
     document.getElementById("new_message").innerText = chat_message;
+    document.getElementById("chat_message_text").value = '';
 }
