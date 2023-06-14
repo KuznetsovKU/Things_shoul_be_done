@@ -9,6 +9,23 @@
     <link rel="icon" type="image" href="icons/favicon.ico">
 </head>
 <body>
+    <script>
+        let name = prompt("Привет! Как тебя зовут?");
+        let age = parseInt(prompt(`"Привет, ${name}, сколько тебе лет?"`));
+        switch(age) {
+            case 18:
+                alert("Вы совершеннолетний, все можно!");
+                break;
+            case 10:
+                alert("Вам надо учить уроки!");
+                break;
+            case 30:
+                alert("Ложитесь спать, завтра на работу");
+                break;
+            default:
+                alert("Мы не знаем, что Вам делать");
+        }
+    </script>
     <div class="header">
         <p class="logo"><a href="index.html" style="color: white; text-decoration: none;">Things should be done</a></p>
         <div class="head_menu">

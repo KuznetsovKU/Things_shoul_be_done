@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/sign_in_up_style.css">
     <link rel="icon" type="image" href="icons/favicon.ico">
-    <script src="scripts/greetings.js"></script>
+    
 </head>
 <body>
     <div class="header">
@@ -36,8 +36,9 @@
                 <p>Please enter your password:</p>
                 <input type="password" id="password" placeholder="Your password">
                 <p class="authorization_buttons">
-                    <button onclick="greetings()">Enter</button>
-                    <button onclick="greetings()">Register</button>
+                    <!-- <button id="Enter_button" onclick="greetings()">Enter</button> -->
+                    <button id="Enter_button" class="join_btn">Enter</button>
+                    <button id="Register_button" class="join_btn">Register</button>
                 </p>
             </div>
         </div>
@@ -48,5 +49,6 @@
         <a href="about_me.html" style="color: white;">about me</a>
         <a href="about_project.html" style="color: white;">about project</a>
 </div>
+<script src="scripts/greetings.js"></script>
 </body>
 </html>

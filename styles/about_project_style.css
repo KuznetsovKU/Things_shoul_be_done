@@ -26,3 +26,10 @@
     border-width: 1px;
     border-color: white;
 }
+
+.joke {
+    background-color: blueviolet;
+    color: black;
+    font-style: italic;
+    font-size: 24px;
+}
